@@ -11,28 +11,31 @@
         <link rel="stylesheet" href="index.css">
         <title>Nombres Superheroes</title>
     </head>
-    <body>
-        <div class="banner background-cover" style="background-image: url('http://unsplash.it/1000/700/?image=0')">
-            <div class="container w-100 body__container">
-                <div class="row w-100 button__row">
-                    <div class="col-sm-12 col-md-3 w-100">
+    <body class="w-100">
+        <div>
+            <div class="banner background-cover body__banner w-100" style="background-image: url('assets/superhero.jpg')">
+                <div class="container w-100 body__container">
+                    <h1>Discover your SuperHero name</h1>
+                    <div class="row w-100 button__row">
+                        <div class="col-sm-12 col-md-3 w-100">
+                        </div>
+                        <div class="col-sm-12 col-md-3 w-100 m-1">
+                            <button type="button" class="btn btn-primary man__button"> Generate Male Name</button>
+                        </div>
+                        <div class="col-sm-12 col-md-3 w-100 m-1">
+                            <button type="button" class="btn btn-danger woman__button">Generate Girl Name</button>
+                        </div>
+                        <div class="col-sm-12 col-md-3 w-100">
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-3 w-100 m-1">
-                        <button type="button" class="btn btn-primary man__button"> Generate Male Name</button>
-                    </div>
-                    <div class="col-sm-12 col-md-3 w-100 m-1">
-                        <button type="button" class="btn btn-danger woman__button">Generate Girl Name</button>
-                    </div>
-                    <div class="col-sm-12 col-md-3 w-100">
+                    <div class="row text-align:center">
+                        <div class="col-sm-12 w-100">
+                            <input type="text" class="form-control body__input"></input>
+                        </div>
                     </div>
                 </div>
-                <div class="row text-align:center">
-                    <div class="col-sm-12 w-100">
-                        <input type="text" class="form-control body__input"></input>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </div>  
+        </div>    
         <script src="index.js"></script>
     </body>
 </html>

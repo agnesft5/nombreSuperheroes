@@ -1,23 +1,45 @@
+.body__banner{
+    background-image: url(assets/superhero.jpg);
+    height: 100vh;
+    background-size: cover;
+}
 .body__container{
-    margin: 15% auto;
+    text-align: center;
+    padding: 10%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .button__row{
-    margin: 5% auto;
     text-align: center;
 }
 .body__input{
     width: 50%;
     text-align: center;
-    margin: 0 auto;
+    margin: 3% auto;
 }
 .man__button{
     margin: 5% 0;
     background-color: white;
     color: black;
     border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
 }
 .woman__button{
     margin: 5% 0;
     background-color: purple;
     border: 1px solid purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.man__button:hover{
+    background-color: rgb(245, 201, 81);
+    color: black;
+    border: 1px solid  rgb(245, 201, 81);
+    opacity: 0,4;
+}
+.woman__button:hover{
+    background-color: rgb(245, 201, 81);
+    color: black;
+    border: 1px solid  rgb(245, 201, 81);
+    opacity: 0,4;
 }
